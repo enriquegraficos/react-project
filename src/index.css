@@ -1,0 +1,30 @@
+/* Fonts*/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap');
+
+@import url(./styles/header.css);
+@import url(./styles/main.css);
+@import url(./styles/cards.css);
+@import url(./styles/payDayContainer.css);
+@import url(./styles/container-feed.css);
+@import url(./styles/footer.css);
+
+:root{
+  --yellow:#E6C744;
+  --white:#fff;
+  --black: #000;
+  --gray: #C2C8DA;
+  --graySecondary:#F4F6F5;
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+  
+ 
+}

@@ -1,0 +1,66 @@
+.payDay-container{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    align-items: center;
+    
+    /* margin-top: 60px; */
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    text-align: center;
+    gap: 25px;
+    background:  linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+   
+    
+
+}
+.payDay-container h3{
+    text-align: left;
+    font-size:90px;
+    max-width: auto;
+    color: var(--black);
+    line-height: auto;
+}
+
+.payDay-container .container-img-pay{
+    display: flex;
+    flex-direction: column;
+    min-width:250px;
+    max-width: 650px;
+    /* height:375px; */
+    margin-left: 100px;
+}
+
+.payDay-container .container-payDay{
+    margin-left: 25px;
+    margin-right: 25px;
+    min-width:250px;
+    max-width: 650px;
+}
+.container-img-pay  img{
+    width: auto;
+    height: auto;
+    border: 10px solid black;
+   
+}
+
+.payDay-container .container-payDay{
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    flex-direction: column;
+    min-width:250px;
+    max-width: 650px;
+    margin-bottom: 50px;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .payDay-container .container-img-pay{
+        margin-left: 25px;
+    }
+    .payDay-container h3{
+        font-size: 60px;
+    }
+}

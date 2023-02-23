@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.container-feed{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+    margin-left:100px;
+    margin-right: 100px;
+    gap: 50px;
+}
+
+.container-feed .container{
+    display: flex;
+    flex-direction: column;
+    min-width:250px;
+    height:auto;
+    gap: 20px;
+    
+}
+.container-feed img{
+    width:auto;
+    height: auto;
+   
+}
+
+.container-feed img:hover{
+    transform: rotate(1deg);
+    transition: 0.5s;
+    
+}
